@@ -1,0 +1,6 @@
+#cloud-config
+velocloud:
+ vce:
+  vco: vco12-usvi1.velocloud.net
+  activation_code: 72KB-3ZJT-EDQX-AXC3
+  vco_ignore_cert_errors: true
