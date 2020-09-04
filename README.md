@@ -20,4 +20,6 @@ copy the private key in a file named "vce.pem"
 
 To destroy the VeloCloud Edge and the AWS environment, execute the "tfdestroy.sh" script.
 
+Finally, every time you create or recreate the VeloCloud, you have to create a new Edge config in VCO to get the new Activation Code OR you can do a RMA and generate the new Activation Code (I will "maybe" automate this part)
+
 Enjoy !
