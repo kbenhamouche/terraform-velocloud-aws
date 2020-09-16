@@ -160,12 +160,10 @@ resource "aws_eip" "velo-ge2-eip" {
     }
 }
 
-// configure static route to reach the management private cloud (10.5.99.0/24)
-
-resource "aws_route" "vpc-route-static" {
+// Static route for branch (example)
+resource "aws_route" "branch_route" {
     route_table_id = aws_vpc.velocloud-vpc.main_route_table_id
     depends_on = [aws_instance.velo-instance, aws_network_interface.velo-ge3]
     destination_cidr_block = "10.5.99.0/24"
     network_interface_id = aws_network_interface.velo-ge3.id
 }
-
