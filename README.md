@@ -1,8 +1,9 @@
 # terraform-velocloud-aws
 
+Deploy a VeloCloud Edge on AWS via Terraform.
+
 ![AWS Network Topology](AWS-Network-Topolgy.png)
 
-Deploy a VeloCloud Edge on AWS via Terraform.
 
 This example is for DEMO purpose ONLY
 
