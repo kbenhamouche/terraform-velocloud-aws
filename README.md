@@ -2,6 +2,9 @@
 
 Deploy a VeloCloud Edge on AWS via Terraform.
 
+![AWS Network Topology](AWS-Network-Topolgy.png)
+
+
 This example is for DEMO purpose ONLY
 
 Before to execute the "tfapply.sh" script, you have to provide the following requirements:
