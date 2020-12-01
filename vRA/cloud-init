@@ -1,0 +1,9 @@
+#cloud-config
+password: VeloCloud123!
+chpasswd: { expire: False }
+ssh_pwauth: True
+velocloud:
+ vce:
+  vco: vco12-usvi1.velocloud.net
+  activation_code: AT25-54A7-Q9T5-LW74
+  vco_ignore_cert_errors: true
